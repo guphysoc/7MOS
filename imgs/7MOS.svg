@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="296.01929mm"
+   height="85.306839mm"
+   viewBox="0 0 296.01929 85.306839"
+   version="1.1"
+   id="svg2353"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="7MOS.svg">
+  <defs
+     id="defs2347" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="35.120829"
+     inkscape:cy="141.2098"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2350">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(50.491791,-100.88826)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:115.85437775px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#cf4e1c;fill-opacity:1;stroke:none;stroke-width:2.89635968"
+       x="-58.80751"
+       y="184.10202"
+       id="text1902"><tspan
+         sodipodi:role="line"
+         id="tspan1900"
+         x="-58.80751"
+         y="184.10202"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#cf4e1c;fill-opacity:1;stroke-width:2.89635968">7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.27062988px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.35676575"
+       x="21.581652"
+       y="179.93771"
+       id="text1906"><tspan
+         sodipodi:role="line"
+         id="tspan1904"
+         x="21.581652"
+         y="179.93771"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#ffffff;fill-opacity:1;stroke-width:1.35676575">SCIENCE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.42953873px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.9357385"
+       x="183.19177"
+       y="131.04514"
+       id="text1910"><tspan
+         sodipodi:role="line"
+         id="tspan1908"
+         x="183.19177"
+         y="131.04514"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#ffffff;fill-opacity:1;stroke-width:0.9357385">OF</tspan></text>
+    <text
+       id="text1914"
+       y="130.05002"
+       x="21.803583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.42953873px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.9357385"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#ffffff;fill-opacity:1;stroke-width:0.9357385"
+         y="130.05002"
+         x="21.803583"
+         id="tspan1912"
+         sodipodi:role="line">MINUTES</tspan></text>
+  </g>
+</svg>
