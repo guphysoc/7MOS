@@ -6,8 +6,12 @@ body{
 }
 
 #backImg{
+    position: absolute;
     width: 100%;
     overflow: hidden;
+    min-width: 1300px;
+    left: -200px;
+    top: -200px;
 }
 
 #topPage{
@@ -275,6 +279,102 @@ transform: scale(1.05);
 .showTalk{
 position: relative;
 opacity: 1;
+}
+
+@media screen and (max-width:768px){
+    #talkAfterClicked{
+        margin: 0 10%;
+    }
+
+    #whatIsIt{
+
+        transition: transform 1s ease-in-out 0.2s;
+        position: relative;
+        width: 22%;
+        /*top:25%;*/
+        margin-top: 250px;
+        margin: 0;
+        padding-left: 0px;
+        left: -200px;
+        transform: translate(200px, 0px);
+
+        opacity: 0;
+    
+    }
+    
+    
+    .parallelogramLeft {
+        position: relative;
+        width: 250px;
+        z-index: 1;
+        
+        /*height: 50%;*/
+        border-bottom: 400px solid red;
+        border-right: 80px solid transparent;
+        margin-left: -20px;
+        margin-top: -200px;
+        /*padding: 30px;*/
+    }
+    .parallelogramLeftUnder {
+        position: absolute;
+        width: 250px;
+        z-index: 0;
+        
+        /*height: 50%;*/
+        border-bottom: 400px solid darkred;
+        border-right: 80px solid transparent;
+        margin-left: -20px;
+        margin-top: 270px;
+        padding: 30px;
+    }
+
+    #MOS_LOGO{
+        position: relative;
+        min-width: 40%;
+    }
+    
+    #MOS{
+        position: relative;
+        min-width: 100%;
+    }
+
+    #MOS_BOX{
+        position: absolute;
+        /*text-align: center;
+        vertical-align: center;
+        padding: 25%;*/
+        /*min-width: 80%;*/
+        top: 25%;
+        left: 10%;
+        width: 80%;
+        height: 50%;
+        /*margin-top: -25%;
+        margin-left: -25%;*/
+        text-align: center;
+        /*background-color: black;*/
+    
+    }
+
+    #TextL{
+        padding-left: 30px;
+        z-index: 4;
+        position: relative;
+    }
+
+    #topPage{
+        height: 90vh;
+        /*background-color: black;*/
+    }
+
+    .section{
+        width: 100%;
+        min-height: 400px;
+        height: 100%;
+        /*margin-bottom: 50px;*/
+    
+    }
+
+
 }
 
 /*
