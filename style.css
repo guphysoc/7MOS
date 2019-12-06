@@ -10,8 +10,6 @@ body{
     width: 100%;
     overflow: hidden;
     min-width: 1300px;
-    left: -200px;
-    top: -200px;
 }
 
 #topPage{
@@ -373,6 +371,12 @@ opacity: 1;
         /*margin-bottom: 50px;*/
     
     }
+
+    
+#backImg{
+    left: -200px;
+    top: -200px;
+}
 
 
 }
