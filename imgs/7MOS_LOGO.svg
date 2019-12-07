@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-273.00192"
+     inkscape:cx="-798.5506"
      inkscape:cy="245.56951"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,51 +60,39 @@
     <g
        transform="matrix(0.72999224,0,0,0.72999224,41.782121,-733.90093)"
        id="g1526">
-      <circle
-         inkscape:export-ydpi="74.472725"
-         inkscape:export-xdpi="74.472725"
-         r="87.3125"
-         cy="1207.1667"
-         cx="76.351135"
-         id="circle1512"
-         style="opacity:1;fill:#2e3440;fill-opacity:1;stroke:none;stroke-width:2.52899981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.52758789;stroke-opacity:1" />
+      <path
+         style="opacity:1;fill:#2e3440;fill-opacity:1;stroke:none;stroke-width:2.52899981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.52758789;stroke-opacity:1"
+         d="m 163.66364,1207.1667 a 87.3125,87.3125 0 0 1 -87.312505,87.3125 87.3125,87.3125 0 0 1 -87.3125,-87.3125 87.3125,87.3125 0 0 1 87.3125,-87.3125 87.3125,87.3125 0 0 1 87.312505,87.3125 z"
+         id="circle1512" />
       <g
          inkscape:export-ydpi="74.472725"
          inkscape:export-xdpi="74.472725"
          transform="translate(-806.44577,622.35893)"
          id="g1522">
-        <text
-           id="text1516"
-           y="625.3681"
-           x="878.20032"
+        <g
+           aria-label="7"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:115.85437775px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#cf4e1c;fill-opacity:1;stroke:none;stroke-width:2.89635944"
-           xml:space="preserve"><tspan
+           id="text1516">
+          <path
+             d="m 886.51604,542.15434 h 52.77936 l -44.52021,85.30684 -6.84492,-3.50731 38.46728,-73.93637 h -39.88151 z"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#cf4e1c;fill-opacity:1;stroke-width:2.89635944"
-             y="625.3681"
-             x="878.20032"
-             id="tspan1514"
-             sodipodi:role="line">7</tspan></text>
-        <text
-           xml:space="preserve"
+             id="path821" />
+        </g>
+        <g
+           aria-label="7"
+           transform="scale(-1,1)"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:115.85437775px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#cf4e1c;fill-opacity:1;stroke:none;stroke-width:2.89635944"
-           x="-887.39349"
-           y="625.3681"
-           id="text1520"
-           transform="scale(-1,1)"><tspan
-             sodipodi:role="line"
-             id="tspan1518"
-             x="-887.39349"
-             y="625.3681"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#cf4e1c;fill-opacity:1;stroke-width:2.89635944">7</tspan></text>
+           id="text1520">
+          <path
+             d="m -879.07777,542.15434 h 52.77936 l -44.52021,85.30684 -6.84492,-3.50731 38.46728,-73.93637 h -39.88151 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#cf4e1c;fill-opacity:1;stroke-width:2.89635944"
+             id="path824" />
+        </g>
       </g>
-      <circle
+      <path
          style="opacity:1;fill:none;fill-opacity:1;stroke:#cf4e1c;stroke-width:7.52899981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.52758789;stroke-opacity:1"
-         id="circle1524"
-         cx="76.351135"
-         cy="1207.1667"
-         r="87.3125"
-         inkscape:export-xdpi="74.472725"
-         inkscape:export-ydpi="74.472725" />
+         d="m 163.66364,1207.1667 a 87.3125,87.3125 0 0 1 -87.312505,87.3125 87.3125,87.3125 0 0 1 -87.3125,-87.3125 87.3125,87.3125 0 0 1 87.3125,-87.3125 87.3125,87.3125 0 0 1 87.312505,87.3125 z"
+         id="circle1524" />
     </g>
   </g>
 </svg>
