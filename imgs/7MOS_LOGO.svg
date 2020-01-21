@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-798.5506"
-     inkscape:cy="245.56951"
+     inkscape:zoom="1.4"
+     inkscape:cx="291.68214"
+     inkscape:cy="223.47464"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -57,42 +57,51 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-31.032354,-80.835925)">
+    <path
+       inkscape:connector-curvature="0"
+       id="circle1512"
+       d="M 161.25531,147.32139 A 63.737447,63.737447 0 0 1 97.517857,211.05884 63.737447,63.737447 0 0 1 33.78041,147.32139 63.737447,63.737447 0 0 1 97.517857,83.583946 63.737447,63.737447 0 0 1 161.25531,147.32139 Z"
+       style="opacity:1;fill:#2e3440;fill-opacity:1;stroke:none;stroke-width:1.84615028;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.52758789;stroke-opacity:1" />
     <g
-       transform="matrix(0.72999224,0,0,0.72999224,41.782121,-733.90093)"
-       id="g1526">
-      <path
-         style="opacity:1;fill:#2e3440;fill-opacity:1;stroke:none;stroke-width:2.52899981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.52758789;stroke-opacity:1"
-         d="m 163.66364,1207.1667 a 87.3125,87.3125 0 0 1 -87.312505,87.3125 87.3125,87.3125 0 0 1 -87.3125,-87.3125 87.3125,87.3125 0 0 1 87.3125,-87.3125 87.3125,87.3125 0 0 1 87.312505,87.3125 z"
-         id="circle1512" />
+       id="g1522"
+       transform="matrix(0.72999224,0,0,0.72999224,-546.91703,-279.58374)"
+       inkscape:export-xdpi="74.472725"
+       inkscape:export-ydpi="74.472725">
       <g
-         inkscape:export-ydpi="74.472725"
-         inkscape:export-xdpi="74.472725"
-         transform="translate(-806.44577,622.35893)"
-         id="g1522">
-        <g
-           aria-label="7"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:115.85437775px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#cf4e1c;fill-opacity:1;stroke:none;stroke-width:2.89635944"
-           id="text1516">
-          <path
-             d="m 886.51604,542.15434 h 52.77936 l -44.52021,85.30684 -6.84492,-3.50731 38.46728,-73.93637 h -39.88151 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#cf4e1c;fill-opacity:1;stroke-width:2.89635944"
-             id="path821" />
-        </g>
-        <g
-           aria-label="7"
-           transform="scale(-1,1)"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:115.85437775px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#cf4e1c;fill-opacity:1;stroke:none;stroke-width:2.89635944"
-           id="text1520">
-          <path
-             d="m -879.07777,542.15434 h 52.77936 l -44.52021,85.30684 -6.84492,-3.50731 38.46728,-73.93637 h -39.88151 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#cf4e1c;fill-opacity:1;stroke-width:2.89635944"
-             id="path824" />
-        </g>
+         id="text1516"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:115.85437775px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#cf4e1c;fill-opacity:1;stroke:none;stroke-width:2.89635944"
+         aria-label="7">
+        <path
+           inkscape:connector-curvature="0"
+           id="path821"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#cf4e1c;fill-opacity:1;stroke-width:2.89635944"
+           d="m 886.51604,542.15434 h 52.77936 l -44.52021,85.30684 -6.84492,-3.50731 38.46728,-73.93637 h -39.88151 z" />
       </g>
-      <path
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#cf4e1c;stroke-width:7.52899981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.52758789;stroke-opacity:1"
-         d="m 163.66364,1207.1667 a 87.3125,87.3125 0 0 1 -87.312505,87.3125 87.3125,87.3125 0 0 1 -87.3125,-87.3125 87.3125,87.3125 0 0 1 87.3125,-87.3125 87.3125,87.3125 0 0 1 87.312505,87.3125 z"
-         id="circle1524" />
+      <g
+         id="text1520"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:115.85437775px;line-height:1.25;font-family:Abandoned;-inkscape-font-specification:Abandoned;letter-spacing:0px;word-spacing:0px;fill:#cf4e1c;fill-opacity:1;stroke:none;stroke-width:2.89635944"
+         transform="scale(-1,1)"
+         aria-label="7">
+        <path
+           inkscape:connector-curvature="0"
+           id="path824"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#cf4e1c;fill-opacity:1;stroke-width:2.89635944"
+           d="m -879.07777,542.15434 h 52.77936 l -44.52021,85.30684 -6.84492,-3.50731 38.46728,-73.93637 h -39.88151 z" />
+      </g>
     </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="circle1524"
+       d="M 161.25531,147.32139 A 63.737447,63.737447 0 0 1 97.517857,211.05884 63.737447,63.737447 0 0 1 33.78041,147.32139 63.737447,63.737447 0 0 1 97.517857,83.583946 63.737447,63.737447 0 0 1 161.25531,147.32139 Z"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#cf4e1c;stroke-width:5.49611139;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.52758789;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.15074995;stroke:none;stroke-width:1.16499996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect827"
+       width="84"
+       height="84"
+       x="56.274399"
+       y="106.56302"
+       inkscape:export-xdpi="38.704762"
+       inkscape:export-ydpi="38.704762" />
   </g>
 </svg>
