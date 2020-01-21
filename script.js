@@ -7,9 +7,6 @@ talkData = {
         "time_to_be_released": "01/22/2020"
     },
     "cir_1_talk": {
-        "speaker": "Dr Daria Sokhan",
-        "title": " Mapping the world within",
-        "abstract": "Protons are a mini-universe in themselves — just like space looks different across different scales (we can see stars, galaxies, the Milky Way as we zoom further and further out), the inner world of the proton appears to change as we zoom further and further in. At a casual glance, it looks like it’s composed of three quarks, but peer deeper inside and it will have shape-shifted into a teeming sea of quarks and gluons. How do its properties come about? What gives it its mass, 1000 times greater than that of its quarks? And what microscopes can we turn towards the infinity of the small at the heart of the proton?",
         "time_to_be_released": "01/23/2020"
     },
     "cir_2_talk": {
