@@ -3,45 +3,63 @@
  */
 
 talkData = {
-    "cir_vol_talk": {
-        "speaker": "Dr Richard Middlemiss",
-        "title": "Using tiny gravity sensors to see inside volcanoes.",
-        "abstract": "In 1985 23,000 people were killed by a volcano in Columbia; this is just one example of the many deadly eruptions that have occurred around the globe in living memory. I’m part of a team that is making sensors that can help to reduce the chance of more deaths like this in the future. We’re creating extremely accurate gravity sensors using the same techniques used to make mobile phone accelerometers.By scanning such sensors over the ground you can infer changes in density, and in doing so create images of magma flow; improving the ability to forecast hazardous events"
+    "cir_0_talk": {
+        "time_to_be_released": "01/22/2020"
     },
-    "cir_nut_talk": {
-        "speaker": "Dr Richard Middlemiss",
-        "title": " consectetur adipiscing",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus arcu, pretium ac dui in, consequat iaculis metus. Nulla nec iaculis erat. Praesent magna magna, suscipit non mauris et, ullamcorper aliquam nunc. Aenean hendrerit, justo in iaculis ullamcorper, dui augue tempus sem, vitae porttitor augue nibh sed lacus. Donec sodales ultrices tempus. Fusce ornare purus eget purus mollis sodales. Fusce luctus iaculis pharetra. Morbi scelerisque rhoncus quam, non bibendum nisi placerat quis. Aenean efficitur pharetra sem et lacinia."
+    "cir_1_talk": {
+        "speaker": "Dr Daria Sokhan",
+        "title": " Mapping the world within",
+        "abstract": "Protons are a mini-universe in themselves — just like space looks different across different scales (we can see stars, galaxies, the Milky Way as we zoom further and further out), the inner world of the proton appears to change as we zoom further and further in. At a casual glance, it looks like it’s composed of three quarks, but peer deeper inside and it will have shape-shifted into a teeming sea of quarks and gluons. How do its properties come about? What gives it its mass, 1000 times greater than that of its quarks? And what microscopes can we turn towards the infinity of the small at the heart of the proton?",
+        "time_to_be_released": "01/23/2020"
     },
-    "cir_mrs_talk": {
-        "speaker": "Dr Richard Middlemiss",
-        "title": "Nam ex metus",
-        "abstract": "Donec malesuada in risus vitae efficitur. Nam ex metus, sagittis id porta non, tincidunt in sem. Pellentesque venenatis rhoncus bibendum. Mauris dapibus ipsum sed tortor fringilla, eget consectetur ante placerat. Integer in felis vitae eros venenatis tristique eget quis mi. Nam sit amet velit at felis rutrum tristique sit amet a mi. Suspendisse vehicula aliquet tortor et sollicitudin."
+    "cir_2_talk": {
+        "time_to_be_released": "01/24/2020"
     },
-    "cir_vr_talk": {
-        "speaker": "Dr Richard Middlemiss",
-        "title": "facilisis in tellus eget",
-        "abstract": "Morbi id imperdiet ipsum. Sed ante orci, facilisis in tellus eget, rutrum vehicula risus. Fusce consequat urna et vestibulum vulputate. Phasellus vel mauris nibh. Donec sodales ultrices semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin mi enim, at cursus neque molestie sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "cir_3_talk": {
+        "time_to_be_released": "01/29/2020"
     },
-    "cir_dots_talk": {
-        "speaker": "Dr Richard Middlemiss",
-        "title": "Maecenas vestibulum",
-        "abstract": "Nullam euismod dignissim nisi et rhoncus. Maecenas vestibulum, nisi at interdum ultricies, nisl turpis viverra nisi, ullamcorper condimentum risus erat vitae lorem. Curabitur blandit id lorem nec rutrum. Sed eget lectus velit. In vulputate, mi vulputate mattis aliquam, felis sapien ornare nisl, nec mattis diam risus ut tortor. Vivamus eget mollis erat, id ullamcorper leo. Maecenas venenatis mattis mi. Nullam eu dolor bibendum, porta libero sed, iaculis justo. In lobortis sapien quis mauris pulvinar, sed maximus odio euismod. Duis urna neque, ultricies et dolor sit amet, iaculis cursus elit. Integer vel pellentesque nibh. Aenean vestibulum ante augue, ac aliquet elit volutpat vitae."
+    "cir_4_talk": {
+        "time_to_be_released": "01/30/2020"
 
     },
 
-    "cir_dots_talk": {
-        "speaker": "Dr Richard Middlemiss",
-        "title": "Maecenas vestibulum",
-        "abstract": "Nullam euismod dignissim nisi et rhoncus. Maecenas vestibulum, nisi at interdum ultricies, nisl turpis viverra nisi, ullamcorper condimentum risus erat vitae lorem. Curabitur blandit id lorem nec rutrum. Sed eget lectus velit. In vulputate, mi vulputate mattis aliquam, felis sapien ornare nisl, nec mattis diam risus ut tortor. Vivamus eget mollis erat, id ullamcorper leo. Maecenas venenatis mattis mi. Nullam eu dolor bibendum, porta libero sed, iaculis justo. In lobortis sapien quis mauris pulvinar, sed maximus odio euismod. Duis urna neque, ultricies et dolor sit amet, iaculis cursus elit. Integer vel pellentesque nibh. Aenean vestibulum ante augue, ac aliquet elit volutpat vitae."
+    "cir_5_talk": {
+        "time_to_be_released": "01/25/2020"
 
     },
-    "cir_dots_talk": {
-        "speaker": "Dr Richard Middlemiss",
-        "title": "Maecenas vestibulum",
-        "abstract": "Nullam euismod dignissim nisi et rhoncus. Maecenas vestibulum, nisi at interdum ultricies, nisl turpis viverra nisi, ullamcorper condimentum risus erat vitae lorem. Curabitur blandit id lorem nec rutrum. Sed eget lectus velit. In vulputate, mi vulputate mattis aliquam, felis sapien ornare nisl, nec mattis diam risus ut tortor. Vivamus eget mollis erat, id ullamcorper leo. Maecenas venenatis mattis mi. Nullam eu dolor bibendum, porta libero sed, iaculis justo. In lobortis sapien quis mauris pulvinar, sed maximus odio euismod. Duis urna neque, ultricies et dolor sit amet, iaculis cursus elit. Integer vel pellentesque nibh. Aenean vestibulum ante augue, ac aliquet elit volutpat vitae."
+    "cir_6_talk": {
 
-    }
+        "time_to_be_released": "01/31/2020"
+
+    },
+    "cir_7_talk": {
+        "time_to_be_released": "01/26/2020"
+
+    },
+    "cir_8_talk": {
+
+        "time_to_be_released": "01/27/2020"
+
+    },
+    "cir_9_talk": {
+        "time_to_be_released": "02/01/2020"
+
+    },
+    "cir_10_talk": {
+        "time_to_be_released": "01/28/2020"
+
+    },
+    "cir_11_talk": {
+        "time_to_be_released": "02/02/2020"
+
+    },
+    "cir_12_talk": {
+        "time_to_be_released": "02/03/2020"
+
+    },
+    "cir_13_talk": {
+        "time_to_be_released": "02/04/2020"
+    },
 
 }
 
@@ -61,9 +79,21 @@ function onClickCircle(id) {
     setTimeout(
         function () {
             document.getElementById("talkAfterClicked").style.opacity = 1;
-            document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
-            document.getElementById("talkTitle").innerHTML = talkData[id]["title"]
-            document.getElementById("talkAbstract").innerHTML = talkData[id]["abstract"]
+            if (Date(talkData[id]["time_to_be_released"]) - Date.now() > 0) {
+                document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
+                document.getElementById("talkTitle").innerHTML = talkData[id]["title"]
+                document.getElementById("talkAbstract").innerHTML = talkData[id]["abstract"]
+            } else {
+                document.getElementById("talkSpeaker").innerHTML = ""
+                document.getElementById("talkTitle").innerHTML = "XXX"
+                document.getElementById("talkAbstract").innerHTML = "This will be released in " + Math.ceil((new Date(talkData[id]["time_to_be_released"]) - new Date()) / (1000 * 60 * 60 * 24)) + " days.  Can you guess what it's about?"
+                //console.log(new Date(talkData[id]["time_to_be_released"]))
+                //console.log(new Date)
+
+                // document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
+                //console.log((new Date(talkData[id]["time_to_be_released"]).getTime() - new Date()) / (1000 * 60 * 60 * 24))
+
+            }
         },
         300
     )

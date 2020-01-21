@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="250mm"
-   height="250mm"
-   viewBox="0 0 250 250"
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
    version="1.1"
    id="svg3443"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12374369"
-     inkscape:cx="-1533.8745"
-     inkscape:cy="1465.0432"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="157.29695"
+     inkscape:cy="575.93743"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,12 +57,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-44.646518,-0.40061937)">
+     transform="translate(-44.646518,-50.400619)">
     <path
-       style="opacity:1;fill:#2e3440;fill-opacity:1;stroke:#2e3440;stroke-width:14.98582649;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 323.37695 129.00781 A 158.36532 158.36532 0 0 0 187.46289 206.45117 A 158.36532 158.36532 0 0 0 49.03125 363.35938 A 158.36532 158.36532 0 0 0 87.833984 466.91406 A 158.36532 158.36532 0 0 0 13.037109 601.32031 A 158.36532 158.36532 0 0 0 81.21875 731.44531 A 158.36532 158.36532 0 0 0 81.025391 735.29688 A 158.36532 158.36532 0 0 0 239.39062 893.66406 A 158.36532 158.36532 0 0 0 351.33789 847.17188 A 158.36532 158.36532 0 0 0 493.34766 935.65625 A 158.36532 158.36532 0 0 0 645.49023 820.76367 A 158.36532 158.36532 0 0 0 675.31836 823.67578 A 158.36532 158.36532 0 0 0 833.68359 665.30859 A 158.36532 158.36532 0 0 0 830.83789 635.98438 A 158.36532 158.36532 0 0 0 847.68164 565.32617 A 158.36532 158.36532 0 0 0 847.44727 558.7168 A 158.36532 158.36532 0 0 0 934.56055 417.32031 A 158.36532 158.36532 0 0 0 814.27734 263.80078 A 158.36532 158.36532 0 0 0 667.5625 164.80078 A 158.36532 158.36532 0 0 0 534.70312 237.25977 A 158.36532 158.36532 0 0 0 478.94727 258.27344 A 158.36532 158.36532 0 0 0 323.37695 129.00781 z "
-       transform="matrix(0.26458333,0,0,0.26458333,44.646518,0.40061937)"
-       id="circle825" />
+       style="opacity:1;fill:#2e3440;fill-opacity:1;stroke:#2e3440;stroke-width:3.96499991;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 117.13933,78.435472 a 28.996497,28.97917 0 0 0 -24.885702,14.171318 28.996497,28.97917 0 0 0 -25.346664,28.71253 28.996497,28.97917 0 0 0 7.104733,18.9494 28.996497,28.97917 0 0 0 -13.695216,24.59492 28.996497,28.97917 0 0 0 12.483975,23.81149 28.996497,28.97917 0 0 0 -0.0354,0.7048 28.996497,28.97917 0 0 0 28.996474,28.97951 28.996497,28.97917 0 0 0 20.49741,-8.50757 28.996497,28.97917 0 0 0 26.00182,16.1917 28.996497,28.97917 0 0 0 27.85711,-21.02413 28.996497,28.97917 0 0 0 5.4615,0.53289 28.996497,28.97917 0 0 0 28.99647,-28.97951 28.996497,28.97917 0 0 0 -0.52104,-5.36602 28.996497,28.97917 0 0 0 3.08407,-12.9297 28.996497,28.97917 0 0 0 -0.0429,-1.20945 28.996497,28.97917 0 0 0 15.95034,-25.87405 28.996497,28.97917 0 0 0 -22.02371,-28.09245 28.996497,28.97917 0 0 0 -26.8633,-18.115944 28.996497,28.97917 0 0 0 -24.3264,13.259224 28.996497,28.97917 0 0 0 -10.20882,3.84528 28.996497,28.97917 0 0 0 -28.48474,-23.654238 z"
+       id="circle825"
+       inkscape:connector-curvature="0" />
     <rect
        style="opacity:1;fill:#81a1c1;fill-opacity:1;stroke:none;stroke-width:3.96499991;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect843"
