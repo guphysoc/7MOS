@@ -28,7 +28,10 @@
         <div id="MOS_BOX">
             <!-- The circle logo would go here, if you put it here, adjust the css of the 7MOS text-->
             <!--<img id="MOS_LOGO" src="imgs/7MOS_LOGO.svg" alt="">-->
-            <img id="MOS" src="imgs/7MOST2.svg" alt="">
+            <a href=""><img id="MOS" src="imgs/7MOST2.svg" alt=""></a>
+
+            <a href="https://www.eventbrite.co.uk/o/7-minutes-of-science-12684362323"><img id="tickets"
+                    src="imgs/Tickets.svg" alt=""></a>
         </div>
         <div id="whatIsIt">
             <div id="TextL">
@@ -47,12 +50,7 @@
 
     <!-- Speakers section-->
     <div class="section">
-        <!-- <img class="spotlight" src="imgs/Spotlight.svg" alt="" style="top:600px; left:-60px;">
-        <img class="spotlight" src="imgs/Spotlight.svg" alt="">
-        <img class="spotlight" src="imgs/Spotlight.svg" alt="">
-        <img class="spotlight" src="imgs/Spotlight.svg" alt="">
-        <img class="spotlight" src="imgs/Spotlight.svg" alt="">
-        <img class="spotlight" src="imgs/Spotlight.svg" alt="">-->
+        <!-- Thought about using spotlights here, not sure how it would work though -->
         <h2 class="s_heading">
             Speakers
         </h2>
@@ -62,16 +60,11 @@
         <div id="circle_container">
 
             <div id="cir_0_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
-                style="background-color: #d08770ff;">
-                <img src="imgs/Volcano.svg" alt="">
-            </div>
+                style="background-color: #d08770ff;"><img src="imgs/Volcano.svg" alt=""></div>
             <div id="cir_1_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
-                style="background-color: #8fbcbbff;">
-                <img src="imgs/NeuT2.svg" alt=""></div>
+                style="background-color: #8fbcbbff;"><img src="imgs/NeuT2.svg" alt=""></div>
             <div id="cir_2_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
-                style="background-color: #a3be8cff;">
-                <img src="imgs/Waves.svg" alt="">
-            </div>
+                style="background-color: #a3be8cff;"><img src="imgs/Waves.svg" alt=""></div>
             <div id="cir_3_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
                 style="background-color: #5e81acff;"><img src="imgs/Nuclear.svg" alt=""></div>
             <div id="cir_4_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
@@ -96,6 +89,7 @@
                 style="background-color: #8fbcbbff;"><img src="imgs/VR.svg" alt=""></div>
         </div>
 
+        <!-- Used by JS to fill theree with the actual speaker information -->
         <div id="talkAfterClicked">
             <h6 id="talkSpeaker"></h6>
             <h3 id="talkTitle">

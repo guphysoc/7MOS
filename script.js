@@ -1,5 +1,6 @@
 /**
- * When the user clicks a circle, show what the talk is about underneath
+ * When the user clicks a circle, show what the talk is about underneath,
+ * all the fields are relativley self-explanitory
  */
 
 talkData = {
@@ -17,42 +18,30 @@ talkData = {
     },
     "cir_4_talk": {
         "time_to_be_released": "01/30/2020"
-
     },
-
     "cir_5_talk": {
         "time_to_be_released": "01/25/2020"
-
     },
     "cir_6_talk": {
-
         "time_to_be_released": "01/31/2020"
-
     },
     "cir_7_talk": {
         "time_to_be_released": "01/26/2020"
-
     },
     "cir_8_talk": {
-
         "time_to_be_released": "01/27/2020"
-
     },
     "cir_9_talk": {
         "time_to_be_released": "02/01/2020"
-
     },
     "cir_10_talk": {
         "time_to_be_released": "01/28/2020"
-
     },
     "cir_11_talk": {
         "time_to_be_released": "02/02/2020"
-
     },
     "cir_12_talk": {
         "time_to_be_released": "02/03/2020"
-
     },
     "cir_13_talk": {
         "time_to_be_released": "02/04/2020"
@@ -60,48 +49,38 @@ talkData = {
 
 }
 
+// Static for the functon below,
+// prev_id is the id of the currently sellected talk cir_xy_talk
 prev_id = ""
 
 function onClickCircle(id) {
-    //alert(id);
+    // Have one fade out and another fade in, fade controlled by CSS
+    // Fade currently selected one out and scale circle back to normal
     document.getElementById("talkAfterClicked").style.opacity = 0;
     document.getElementById(id).style.transform = "scale(1.2)";
     if (prev_id) {
         document.getElementById(prev_id).style.transform = null;
-        //document.getElementById(prev_id).onmouseover = function () {
-        ///   document.getElementById(prev_id).style.transform = "scale(1.1)"
-        //}
     }
 
+    // FFade clicked on speaker in
     setTimeout(
         function () {
             document.getElementById("talkAfterClicked").style.opacity = 1;
             if (Date(talkData[id]["time_to_be_released"]) - Date.now() > 0) {
+                // The release date has passed, show the user the speaker, title and abstract
                 document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
                 document.getElementById("talkTitle").innerHTML = talkData[id]["title"]
                 document.getElementById("talkAbstract").innerHTML = talkData[id]["abstract"]
             } else {
+                // The user should be able to see it because it hasn't been released yet
                 document.getElementById("talkSpeaker").innerHTML = ""
                 document.getElementById("talkTitle").innerHTML = "XXX"
                 document.getElementById("talkAbstract").innerHTML = "This will be released in " + Math.ceil((new Date(talkData[id]["time_to_be_released"]) - new Date()) / (1000 * 60 * 60 * 24)) + " days.  Can you guess what it's about?"
-                //console.log(new Date(talkData[id]["time_to_be_released"]))
-                //console.log(new Date)
-
-                // document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
-                //console.log((new Date(talkData[id]["time_to_be_released"]).getTime() - new Date()) / (1000 * 60 * 60 * 24))
 
             }
         },
         300
     )
-    //document.getElementById("talkAfterClicked").style.opacity = 1;
-    //document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
-    //document.getElementById("talkTitle").innerHTML = talkData[id]["title"]
-    //document.getElementById("talkAbstract").innerHTML = talkData[id]["abstract"]
-    //document.getElementsByClassName()
-    //Use the ID to get an element with the same id + "ToShow" to un-hide
-    //document.getElementById(id + "ToShow").classList.add("show");
 
     prev_id = id;
-
 }

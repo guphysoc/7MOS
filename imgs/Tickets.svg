@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="134.15202mm"
+   height="38.283321mm"
+   viewBox="0 0 134.15202 38.283321"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="Tickets.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1803"
+       x="-0.010196213"
+       width="1.0203924"
+       y="-0.076713696"
+       height="1.1534274">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.74148604"
+         id="feGaussianBlur1805" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1807"
+       x="-0.040784851"
+       width="1.0815697"
+       y="-0.30685478"
+       height="1.6137096">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.9659442"
+         id="feGaussianBlur1809" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="168.033"
+     inkscape:cy="88.717843"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-68.995415,-192.43572)">
+    <rect
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.69683075px;line-height:1.25;font-family:Clip;-inkscape-font-specification:Clip;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#3b4252;fill-opacity:1;stroke:none;stroke-width:7.55251694;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:3779.52758789;stroke-opacity:1"
+       id="rect1815"
+       width="134.15202"
+       height="36.963623"
+       x="68.995415"
+       y="193.75542"
+       rx="2.8059335"
+       ry="2.8059335" />
+    <g
+       style="opacity:0.7;fill:#ff3a05;fill-opacity:1;filter:url(#filter1807)"
+       transform="translate(21.713833,203.92062)"
+       id="g1821">
+      <text
+         id="text1819"
+         y="18.949717"
+         x="53.362244"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.69683075px;line-height:1.25;font-family:Clip;-inkscape-font-specification:Clip;letter-spacing:0px;word-spacing:0px;fill:#ff3a05;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#ff3a05;fill-opacity:1;stroke-width:0.26458332"
+           y="18.949717"
+           x="53.362244"
+           id="tspan1817"
+           sodipodi:role="line">TICKETS</tspan></text>
+    </g>
+    <g
+       id="g1827"
+       transform="translate(21.713833,192.29033)"
+       style="opacity:0.9;fill:#ff3a05;fill-opacity:1;filter:url(#filter1803)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.69683075px;line-height:1.25;font-family:Clip;-inkscape-font-specification:Clip;letter-spacing:0px;word-spacing:0px;fill:#ff3a05;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="53.36224"
+         y="30.579966"
+         id="text1825"><tspan
+           sodipodi:role="line"
+           id="tspan1823"
+           x="53.36224"
+           y="30.579966"
+           style="fill:#ff3a05;fill-opacity:1;stroke-width:0.26458332">TICKETS</tspan></text>
+    </g>
+    <text
+       id="text1831"
+       y="222.87041"
+       x="75.075981"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.69683075px;line-height:1.25;font-family:Clip;-inkscape-font-specification:Clip;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ffece7;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="fill:#ffece7;fill-opacity:1;stroke-width:0.26458332"
+         y="222.87041"
+         x="75.075981"
+         id="tspan1829"
+         sodipodi:role="line">TICKETS</tspan></text>
+  </g>
+</svg>
