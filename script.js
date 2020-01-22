@@ -73,7 +73,7 @@ function onClickCircle(id) {
     setTimeout(
         function () {
             document.getElementById("talkAfterClicked").style.opacity = 1;
-            if (Date(talkData[id]["time_to_be_released"]) - Date.now() > 0) {
+            if (Date(talkData[id]["time_to_be_released"]) - Date.now() >= 0) {
                 // The release date has passed, show the user the speaker, title and abstract
                 document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
                 document.getElementById("talkTitle").innerHTML = talkData[id]["title"]
