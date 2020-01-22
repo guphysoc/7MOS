@@ -5,6 +5,9 @@
 
 talkData = {
     "cir_0_talk": {
+        "speaker": "Dr Richard Middlemiss",
+        "title": "Using tiny gravity sensors to see inside volcanoes",
+        "abstract": "In 1985 23,000 people were killed by a volcano in Columbia; this is just one example of the many deadly eruptions that have occurred around the globe in living memory. I’m part of a team that is making sensors that can help to reduce the chance of more deaths like this in the future. We’re creating extremely accurate gravity sensors using the same techniques used to make mobile phone accelerometers.By scanning such sensors over the ground you can infer changes in density, and in doing so create images of magma flow; improving the ability to forecast hazardous events",
         "time_to_be_released": "01/22/2020"
     },
     "cir_1_talk": {
