@@ -25,8 +25,8 @@ talkData = {
         "time_to_be_released": "01/24/2020"
     },
     "cir_3_talk": {
-        "speaker": "Feb 4 | Hannah Doran",
-        "title": "Extraction of heat from radioactive waste",
+        "speaker": "Hannah Doran",
+        "title": "Feb 4 | Extraction of heat from radioactive waste",
         "abstract": "The Nuclear Industry has received a lot of controversy regarding its safety, security and future development after the Fukushima disaster in 2011. Many countries are entering their nuclear decommissioning phase, marking a definitive end to the commercialisation of nuclear energy. However, the build-up of radioactive waste in nuclear stores remains a future burden. My talk will discuss the back-end fuel cycle issues, specifically the interim storage and permanent disposal stages, and suggest novel techniques to recycle and utilise the decay heat produced from radioactive waste for heat and/or electricity production.",
 
         "time_to_be_released": "01/24/2020"
