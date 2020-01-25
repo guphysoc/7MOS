@@ -39,12 +39,24 @@ talkData = {
         "time_to_be_released": "01/24/2020"
     },
     "cir_5_talk": {
+        "speaker": "Dr Steven Johnson",
+        "title": "Jan 28 | How can you see with individual photons?",
+        "abstract": "A photon is the elementary particle of light. The recent invention of specialised cameras mean we can now see individual photons, and even measure the distance to things the photon interacted with. The creation of this hardware now has us asking the question: how many photons do we need to be able to see an object?",
+
         "time_to_be_released": "01/25/2020"
     },
     "cir_6_talk": {
+        "speaker": "Dr Juan Manuel Parrilla Gutierrez",
+        "title": "Feb 4 | Engineering artificial life from the bottom-up",
+        "abstract": "Life appeared on planet Earth around 4 billion of years ago, during a process known as abiogenesis or the Origin of Life. My research studies how did this happen, and aims to apply some of those processes into the design of bio-inspired robots. If we know that life happened already at least once, why cannot we use that knowledge to create artifial life?",
+
         "time_to_be_released": "01/25/2020"
     },
     "cir_7_talk": {
+        "speaker": "Dr Derek Fabel",
+        "title": "Jan 28 | A tale of fraudulent Scotch whiskies and the atom bomb",
+        "abstract": "A major threat to the Scotch whisky industry is the sale of counterfeit single malt whiskies with purported distillation years in the 19th and early- to mid-20th centuries. However, these are often much more recent spirits, distilled in the latter part of the 20th or first part of the 21st centuries. These sales impinge upon the reputation of auction houses, retailers, brand owners and distillers.\n\n  The atmospheric testing of nuclear weapons in the 1950s and early 1960s caused a dramatic increase of radioactive 14C in the atmosphere. Using newly developed chemical techniques and accelerator mass spectrometry we have created a 14C calibration curve derived from known-age, single malt whiskies for the period 1950–2015 that enables whisky distilled during the period from 1955 onwards to have the distillation year determined to within 1–3 years for certain periods. However, because of the shape of the curve, two possible age ranges are often possible. The correct range can often be determined from a further plot of δ13C values against distillation year, which shows a trend of decreasing values through time. Examples are given of the determination of both genuine and fake products.",
+
         "time_to_be_released": "01/25/2020"
     },
     "cir_8_talk": {
