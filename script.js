@@ -60,12 +60,24 @@ talkData = {
         "time_to_be_released": "01/25/2020"
     },
     "cir_8_talk": {
+        "speaker": "Dr Dhayalan Shakthivel",
+        "title": "The Science and Engineering of Nanowires",
+        "abstract": "Wires of different materials and dimensions are serving our day-to-day life through various utilities such as electricity cables, fibre optic lines, textiles etc., In low dimensions, nanowires (NWs) are 1000 times thinner than the diameter of human hair. NWs  of technologically important materials have been realized over past 3 decades which displayed interesting physical and chemical properties. These NWs enables futuristic applications such miniatured high speed computer processors, photonics devices, electron skin, energy generators etc., The production and processing of these NWs needs specialized techniques to realize the outlined devices and systems. This talk aimed to illustrate the technologically important NWs, focused processing techniques and few examples of demonstrated prototypes.",
+
         "time_to_be_released": "01/26/2020"
     },
     "cir_9_talk": {
+        "speaker": "Evangelos Christou",
+        "title": "The Formation & Evolution of Mars: Implications for Astrobiology.",
+        "abstract": " This research focuses on the enigmatic formation of Mars, its dynamic evolution & the origin of water on the red planet. Computational astrophysical experiments are performed to simulate the formation and evolution of Mars. We know that billions of years ago, Mars had abundant surface fluids & there is also evidence of current, transient fluid activity on the planet's surface. Ancient Martian rocks have been ejected form the planet's surface due to large impact events several times during the geological history & some, luckily, fell to Earth. These unique Martian meteorites help us reconstruct the formation of Mars, its ancient aqueous activity & assess its astrobiological potential.",
+
         "time_to_be_released": "01/26/2020"
     },
     "cir_10_talk": {
+        "speaker": "Christopher Dacosta",
+        "title": "Helping to Prevent Strokes with Ultrasound",
+        "abstract": "Strokes are the leading cause of disability in the UK and the second most common cause of death globally, whilst illness due to strokes is projected to double over the next 15 years. It is vital to identify individuals at high risk of having a stroke, so that they can be offered preventative treatment. Risk is currently determined by considering age, sex, and history of diabetes and various forms of cardiovascular disease, but the ‘thickness’ (viscosity) of the blood may be another important factor to consider. However, measuring the viscosity of blood typically requires bulky, high-powered equipment, which would make it unfeasible in low resource settings. It also needs several millilitres of blood to be taken, which could put people off from coming forward for screening. Therefore, we are developing a new method of measuring blood viscosity using surface acoustic waves (a form of ultrasound) that could be powered by portable batteries, and that requires much less blood.",
+
         "time_to_be_released": "01/26/2020"
     },
     "cir_11_talk": {
