@@ -81,12 +81,24 @@ talkData = {
         "time_to_be_released": "01/26/2020"
     },
     "cir_11_talk": {
+        "speaker": "Maha Al-Anqoudi",
+        "title": "E-learning and how it can be diagnosed and nourished to become self-smart for the benefit of the learner, teacher and educational institution.",
+        "abstract": "Today, the Internet is filled with a huge amount of learning resources. In all its forms, it includes audio, video, and a mixture of many forms represented by open education platforms. Both the teacher and the student are able to choose the source from which to feed the educational content they wish to learn. This trend rose to be more specialized and emerged as MOOCs (Massive Open Online Courses). These platforms have opened the door for research in various areas to improve their performance to ensure that the best for the student, through the outstanding teacher, and the correct curriculum. The presence of such platforms, also opens the way for programmers to study the progress of the educational process and learn how to ensure the achievement of learning objectives open the scope for studying the various interactions that take place in these platforms. Some studies were able to analyze the learner's characters through mouse clicks and track the learner's movement with the educational content. Other understand the relevance of the learner to the course and his commitment to attend lectures and solve assignments in a timely manner. The increasing number of students enrolled in these platforms has given great attention to universities to go to this new trend of education. This posed a challenge to the transition to the cloud world with the same quality and educational controls in which all elements of education (student, teacher, educational course) are completely cloud based. So, programmers have been helping to find ways to enable these platforms to be smart enough to remove the difference between traditional on campus learning and online learning. In this work, we are developing a model that contribute to the analysis of the cloud learning, identify gaps and propose quality solutions. This can determine the programs needed for the  student to come up with certain skills and abilities. This contributes to the reorientation of the educational process in conjunction with the need of the student. Peering in mind that machine learning tools can help students to know their weakness and accordingly select the relevant courses to strength their skills and knowledge.",
+
         "time_to_be_released": "01/27/2020"
     },
     "cir_12_talk": {
+        "speaker": "Vincenzo Bruno",
+        "title": "Time-varying media for light-with-light modulation",
+        "abstract": "Nonfabrication techniques allows a full hand-control of light can be possible. However, the dream of an electron-free optical technology at the nanoscale relays on media with an efficient and ultrafast response in time to an optical perturbation. In this talk, I will show how to generate new light components by using time as a 4th dimension. By optically pumping the same material of the screen of your phone, I will provide a one to one efficiency conversion. What usually people do in kilometers of fibers is now possible in thicknesses thinner than your hairs.",
+
         "time_to_be_released": "01/27/2020"
     },
     "cir_13_talk": {
+        "speaker": "Sarune Savickaite",
+        "title": "Using virtual Reality to understand individual perceptual differences",
+        "abstract": "Nullam euismod dignissim nisi et rhoncus. Maecenas vestibulum, nisi at interdum ultricies, nisl turpis viverra nisi, ullamcorper condimentum risus erat vitae lorem. Curabitur blandit id lorem nec rutrum. Sed eget lectus velit. In vulputate, mi vulputate mattis aliquam, felis sapien ornare nisl, nec mattis diam risus ut tortor. Vivamus eget mollis erat, id ullamcorper leo. Maecenas venenatis mattis mi. Nullam eu dolor bibendum, porta libero sed, iaculis justo. In lobortis sapien quis mauris pulvinar, sed maximus odio euismod. Duis urna neque, ultricies et dolor sit amet, iaculis cursus elit. Integer vel pellentesque nibh. Aenean vestibulum ante augue, ac aliquet elit volutpat vitae.",
+
         "time_to_be_released": "01/27/2020"
     },
 
