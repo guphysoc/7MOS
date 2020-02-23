@@ -139,3 +139,36 @@ function onClickCircle(id) {
 
     prev_id = id;
 }
+
+var imageSize = 300; //px
+
+function onStart() {
+    // Load in all the photos from the folders
+    folders_with_photos = [{ "name": "photos2020", "numPhotos": "21" }];
+    console.log(parseInt(folders_with_photos[0]["numPhotos"]))
+    for (f in folders_with_photos) {
+        console.log(f)
+        for (var i = 1; i < parseInt(folders_with_photos[f]["numPhotos"]); i++) {
+            var myImage = new Image(320, 240);
+            myImage.src = 'photos2020/' + i + '.jpg';
+            myImage.className = "SMOSPastImage";
+            document.getElementById("photoHolder").appendChild(myImage);
+        }
+    }
+
+    document.getElementById("photoHolder").className += "ovScr";
+
+
+}
+/*
+var openFile = function (file) {
+    var input = file.target;
+
+    var reader = new FileReader();
+    reader.onload = function () {
+        var dataURL = reader.result;
+        var output = document.getElementById('output');
+        output.src = dataURL;
+    };
+    reader.readAsDataURL(input.files[0]);
+};*/

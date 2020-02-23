@@ -14,6 +14,7 @@ body{
     width: 100%;
     overflow: hidden;
     min-width: 1300px;
+
 }
 
 #topPage{
@@ -157,11 +158,38 @@ p{
 
 }
 
-.section .s_heading{
+.s_heading{
     font-family: 'Roboto', sans-serif;
     color: #d8dee9ff;
     font-size: 24pt;
     
+}
+
+.dark{
+    background-color: #2e3440;
+}
+
+.section_photos{
+    min-height: 107vh;
+    overflow: hidden;
+    width: 100%;
+    background-color: #3B4252;
+    margin: 0;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+
+   
+}
+
+#backImg_photos{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    min-width: 1300px;
+    right: -30px;
+    z-index: 0;
 }
 
 #circle_container{
@@ -170,6 +198,11 @@ p{
     /*height: 100%;*/
     text-align: center;
     
+}
+
+h2{
+    position: relative;
+    z-index: 4;
 }
 
 .listOfSpeakers{
@@ -311,6 +344,40 @@ position: relative;
 opacity: 1;
 }
 
+#photoHolder{
+width: 80%;
+height: 800px;
+margin: 0 auto;
+position: relative;
+/*display: inline;
+overflow-y: scroll;*/
+background-color: #2e3440;
+padding-top: 30px;
+overflow-y: auto;
+z-index: 3;
+}
+
+#photoHolder p{
+    z-index: 4;
+    }
+/*
+#phHolder{
+    overflow-y: scroll;
+    height: 600px;
+}
+*/
+/*
+.ovScr{
+    overflow-y: scroll;
+}
+
+*/
+
+.SMOSPastImage{
+    margin: 30px;
+    z-index: 100;
+}
+
 @media screen and (max-width:768px){
     #talkAfterClicked{
         margin: 0 10%;
@@ -408,6 +475,7 @@ opacity: 1;
 #backImg{
     left: -200px;
     top: -200px;
+
 }
 
 
