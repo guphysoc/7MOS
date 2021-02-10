@@ -149,7 +149,7 @@ p{
 
 .section{
     width: 100%;
-    min-height: 107vh;
+    min-height: 105vh;
     /*height: 107vh;*/
     background-color: #434c5eff;/*#434c5eff;*/
     text-align: center;
@@ -314,15 +314,15 @@ transform: scale(1.05);
 
 }
 
-#talkAfterClicked h3{
+.talkAfterClicked h3{
     font-family: 'Roboto', sans-serif;
 }
 
-#talkAfterClicked h6{
+.talkAfterClicked h6{
     font-family: 'Roboto', sans-serif;
 }
 
-#talkAfterClicked {
+.talkAfterClicked {
     margin: 0 30%;
     color: #d8dee9ff;
 
@@ -331,7 +331,7 @@ transform: scale(1.05);
     text-align: justify;*/
 }
 
-#talkAfterClicked p{
+.talkAfterClicked p{
 
     text-justify: auto;
     text-align: justify;
@@ -379,7 +379,7 @@ z-index: 3;
 }
 
 @media screen and (max-width:768px){
-    #talkAfterClicked{
+    .talkAfterClicked{
         margin: 0 10%;
     }
 

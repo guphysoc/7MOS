@@ -4,9 +4,45 @@
  */
 
 talkData = {
+    "2021_cir_0_talk": {
+        "speaker": "Dr Laurence Cooper",
+        "title": "Feb 19 | The Tiniest Things",
+        "abstract": "Our theory of the fundamental building blocks of all matter, referred to as the Standard Model, is well-known to be incomplete. We don’t need to look very far to find tensions between the Standard Model and observations from experiment. For example, protons and neutrons clump together to form the nucleus of atoms, however they are actually composite in nature and our description of their constituents, quarks and gluons, raises many deep questions. It predicts a diverse ‘zoo’ of other composite particles and, by comparing observations of their properties with expectations from theory, we can evaluate the extent to which the Standard Model is valid. In my talk, I will describe ongoing efforts to pin down exactly the points of contention.",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2021_cir_1_talk": {
+        "speaker": "Dr Shantimoy Kar",
+        "title": "Feb 19 | Diagnosis of bloodstream infections from large sample volume",
+        "abstract": "Early stage detection of bacteria for bloodstream infections is highly challenging due to the low bacterial counts, requiring lengthy culture steps to increase concentrations above limits of detection. We have developed a point-of-care testing strategy for detecting E. Coli from millilitres of whole blood. The method is based on the treatment of the sample with a mammalian-specific cell lysis buffer which enables to enrich E. Coli cells on a paper-based origami device. The bacteria are then detected by loop-mediated isothermal amplification (LAMP) integrated in the device, reaching a detection limit of 10 3 cells/mL, a clinically-relevant concentration.",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2021_cir_2_talk": {
+        "speaker": "Faye Davies",
+        "title": "Feb 19 | Using achondrite meteorites to explore lost proto-planetary worlds",
+        "abstract": "The planets of our Solar System formed from accretion of gas and dust in the nebula into protoplanets ~100 km across, giant collisions between these protoplanets formed the planetary system we see today. Many of these early planetesimals have since been disrupted and destroyed. However, we have fragments of some of these early planetary embryos in the form of the primitive achondrite meteorites. Through observations of the petrology and textures of these achondrites an understanding of the conditions and processes that were present on these early planetesimals can be inferred. Here use electron backscatter diffraction, a crystallographic mapping technique, to explore the mineral textures and microstructures in these achondrite meteorites in an aim to reconstruct their geological histories and gain an insight into the parent bodies they originated from along with what the early Solar System environment was like.",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2021_cir_3_talk": {
+        "speaker": "Dr Temitayo Oderinwale + (Dr Onur Celik, Dr Andrea Viale, Prof Colin McInne)",
+        "title": "Feb 19 | Harnessing space resources for energy generation using orbiting reflectors",
+        "abstract": "Increased electrical energy provision from clean sources is a vital aspect of the progressive decarbonization strategies adopted by different countries to protect the environment. Despite the growth of the solar energy sector, its utilization for energy provision has remained limited to hours of daylight. Consequently, its contribution to global electricity generation has been severely constrained. Solar radiation is a continuously available resource in space; harnessing this space resource for electricity provision opens a new vista of possibilities for delivery of clean energy services in an environmentally friendly manner. Space sector resources have contributed immensely to the advancement of the information and communication industry and to the understanding of the world but also holds enormous potential to significantly enhance the electrical power industry. The SOLSPACE project, supported by the European Research Council, aims to improve solar energy generation by using orbiting solar reflectors to direct solar energy from space to identified large-scale solar farms on the Earth thereby enhancing output at critical hours of the day; for example, at dawn and dusk when output is low or zero, but demand is high.",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2021_cir_4_talk": {
+        "speaker": "Lewis Archibald",
+        "title": "Feb 19 | The Butterfly Effect",
+        "abstract": "The natural world contains innumerable spectacular metamorphoses. The fast-swimming tadpole becomes the hopping frog, and the unassuming caterpillar becomes the dazzling butterfly. How can two forms of one organism with the same underlying genome look and behave in such radically different ways? To understand how these transformations are possible, we must look at DNA storage, histone proteins and the control of gene expression. This is the field of epigenetics. In humans, we know that epigenetic processes are controlled by three classes of enzyme: writer, reader and eraser. Of the eraser enzymes, histone deacetylases or HDACs are implicated in various human disease states – including HIV infection, Alzheimer’s and some forms of cancer. To combat this, we must understand how these enzymes function at a molecular level. In the Jamieson group, we are exploring the bases of HDAC substrate-recognition at the primary amino acid sequence level using rationally designed, synthetic histone tail peptides.",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2021_cir_5_talk": {
+        "speaker": "Will be released soon",
+        "title": "Feb 19 | Will be released soon",
+        "abstract": "Will be released soon",
+        "time_to_be_released": "01/22/2020"
+    },
     "cir_0_talk": {
         "speaker": "Dr Richard Middlemiss",
-        "title": "Jan 28 | Using tiny gravity sensors to see inside volcanoes",
+        "title": "Using tiny gravity sensors to see inside volcanoes",
         "abstract": "In 1985 23,000 people were killed by a volcano in Columbia; this is just one example of the many deadly eruptions that have occurred around the globe in living memory. I’m part of a team that is making sensors that can help to reduce the chance of more deaths like this in the future. We’re creating extremely accurate gravity sensors using the same techniques used to make mobile phone accelerometers.By scanning such sensors over the ground you can infer changes in density, and in doing so create images of magma flow; improving the ability to forecast hazardous events",
         "time_to_be_released": "01/22/2020"
     },
@@ -111,7 +147,8 @@ prev_id = ""
 function onClickCircle(id) {
     // Have one fade out and another fade in, fade controlled by CSS
     // Fade currently selected one out and scale circle back to normal
-    document.getElementById("talkAfterClicked").style.opacity = 0;
+    document.getElementById("talkAfterClicked2020").style.opacity = 0;
+    document.getElementById("talkAfterClicked2021").style.opacity = 0;
     document.getElementById(id).style.transform = "scale(1.2)";
     if (prev_id) {
         document.getElementById(prev_id).style.transform = null;
@@ -120,12 +157,20 @@ function onClickCircle(id) {
     // FFade clicked on speaker in
     setTimeout(
         function () {
-            document.getElementById("talkAfterClicked").style.opacity = 1;
+
             if (Date.parse(talkData[id]["time_to_be_released"]) - Date.now() < 0) {
                 // The release date has passed, show the user the speaker, title and abstract
-                document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
-                document.getElementById("talkTitle").innerHTML = talkData[id]["title"]
-                document.getElementById("talkAbstract").innerHTML = talkData[id]["abstract"]
+                if (id.split("_")[0] == "2021") {
+                    document.getElementById("talkAfterClicked2021").style.opacity = 1;
+                    document.getElementById("talkSpeaker2021").innerHTML = talkData[id]["speaker"]
+                    document.getElementById("talkTitle2021").innerHTML = talkData[id]["title"]
+                    document.getElementById("talkAbstract2021").innerHTML = talkData[id]["abstract"]
+                } else {
+                    document.getElementById("talkAfterClicked2020").style.opacity = 1;
+                    document.getElementById("talkSpeaker").innerHTML = talkData[id]["speaker"]
+                    document.getElementById("talkTitle").innerHTML = talkData[id]["title"]
+                    document.getElementById("talkAbstract").innerHTML = talkData[id]["abstract"]
+                }
             } else {
                 // The user should be able to see it because it hasn't been released yet
                 document.getElementById("talkSpeaker").innerHTML = ""
