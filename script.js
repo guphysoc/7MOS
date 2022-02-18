@@ -4,6 +4,47 @@
  */
 
 talkData = {
+
+    "2022_cir_0_talk": {
+        "speaker": "Faye Davies",
+        "title": "Feb 22 | The Petrology and Microstructures of Achondrite meteorites",
+        "abstract": "Meteorites hold the key to understanding more about the planetary bodies that once existed in our Solar System and what material was around when the Earth was forming. Providing different pieces of information specific to the planetary body and the part of the Solar System which it formed. By studying the petrology and microstructures of meteorites using electron backscatter techniques we can aim to learn more about the deformation histories, allowing us to gain an insight into the planetary bodies that they originated from and what the early Solar System may have been like. ",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2022_cir_1_talk": {
+        "speaker": "George John Puthenvila",
+        "title": "Feb 22 | Shape Memory Materials for Multifunctional Ultrasonic Surgical Devices",
+        "abstract": "The most commonly used shape memory material is Nitinol (NiTi). Nitinol has very unique material properties such as superelasticity, shape memory effect, corrosion resistance and        high ductility and strength. This is why Nitinol has multiple biomedical applications.        There is a growing demand for ultrasonic surgical devices to be miniaturised and        multifunctional. Multifunctionality means that the device is capable of switching between        tissue/bone cutting and auterisation. The challenge of miniaturisation is the generation of        sufficient vibrational amplitude for cutting procedures.        The research objective is to successfully integrate this material onto the device for active        tuning of ultrasonic parameters",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2022_cir_2_talk": {
+        "speaker": "Adam Visick",
+        "title": "Feb 22 | ---",
+        "abstract": "What can we learn from other planetary bodies when parts of them impact Earth? Chassignites are 1.3-billion-year-old Martian dunites that have been        hurled from their parent planet and fallen here on Earth as meteorites. They        contain a wealth of information locked up within their chemical makeup and        their crystalline micro-structures. As such understanding the way different        elements concentrate and crystals deform in a magmatic system is key to        understanding their formational environment. Here I will discuss how we draw        conclusions about the formational setting of Chassignites and Martian        volcanism utilising laser ablation mass spectroscopy and electron backscatter        diffraction.",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2022_cir_3_talk": {
+        "speaker": "Alexander Backis",
+        "title": "Feb 22 | Measuring atomic motion with neutrons",
+        "abstract": " Many of the challenges facing us in the 21st century, such as developing emission-free        transportation, requires a detailed understanding of how materials are structured at an        atomic level. Moreover, it requires knowledge of how the atoms move. This can be measured        by shooting neutrons at the material of interest and recording how the neutron velocities        change after the interaction. To record the neutrons, a special component called a neutron        detector is needed. In my talk, I will present how a state-of-the-art neutron detector works,        some of the recent progress made on it and why this progress is important for scientific        research.",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2022_cir_4_talk": {
+        "speaker": "Jacquelyn Egan",
+        "title": "Feb 22 | Organic Materials for Flexible Electronics",
+        "abstract": "My research focuses on the design and development of organic alternatives for flexible        electronics. Many electronics are currently being made using precious metals, but these are        dwindling resources and the continued mining of them is not sustainable. My work involves a        potential organic alternative that can be dissolved in an environmentally friendly solution like        water. The electronic performance of these materials can be tailored through simple changes        like changing the pH of the water they are dissolved in. These solutions can then be dried down        in order to make films for flexible surfaces for use as flexible electronics.",
+        "time_to_be_released": "01/22/2020"
+    },
+    "2022_cir_5_talk": {
+        "speaker": "Ross Johnston",
+        "title": "Feb 22 | Too hot to sample",
+        "abstract": "    The detection of macroscopic black-hole mergers despite being arguabley the most sensitive experiment in the world is limited, to a large degree, by the microscopic material properties, of detector mirrors. In particular, to move detection rate, towards the daily, without compromising the broadband sensitivity future detectors will need to work at just above absolute zero. At this temperature, the thermal stability calls for a x 10 reduction to the absorption of the Silicon mirrors. Throughout this talk you will learn about the difficulties of theoretical fitting data and the challenges of working at cryogenic temperatures.",
+        "time_to_be_released": "01/22/2020"
+    },
+
+
+
+    /////////////////////////////////
     "2021_cir_0_talk": {
         "speaker": "Dr Laurence Cooper",
         "title": "Feb 19 | The Tiniest Things",
@@ -149,6 +190,7 @@ function onClickCircle(id) {
     // Fade currently selected one out and scale circle back to normal
     document.getElementById("talkAfterClicked2020").style.opacity = 0;
     document.getElementById("talkAfterClicked2021").style.opacity = 0;
+    document.getElementById("talkAfterClicked2022").style.opacity = 0;
     document.getElementById(id).style.transform = "scale(1.2)";
     if (prev_id) {
         document.getElementById(prev_id).style.transform = null;
@@ -160,7 +202,12 @@ function onClickCircle(id) {
 
             if (Date.parse(talkData[id]["time_to_be_released"]) - Date.now() < 0) {
                 // The release date has passed, show the user the speaker, title and abstract
-                if (id.split("_")[0] == "2021") {
+                if (id.split("_")[0] == "2022") {
+                    document.getElementById("talkAfterClicked2022").style.opacity = 1;
+                    document.getElementById("talkSpeaker2022").innerHTML = talkData[id]["speaker"]
+                    document.getElementById("talkTitle2022").innerHTML = talkData[id]["title"]
+                    document.getElementById("talkAbstract2022").innerHTML = talkData[id]["abstract"]
+                } else if (id.split("_")[0] == "2021") {
                     document.getElementById("talkAfterClicked2021").style.opacity = 1;
                     document.getElementById("talkSpeaker2021").innerHTML = talkData[id]["speaker"]
                     document.getElementById("talkTitle2021").innerHTML = talkData[id]["title"]

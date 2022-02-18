@@ -30,7 +30,7 @@
             <!--<img id="MOS_LOGO" src="imgs/7MOS_LOGO.svg" alt="">-->
             <a href=""><img id="MOS" src="imgs/7MOST2.svg" alt=""></a>
 
-            <a href="https://www.eventbrite.co.uk/e/7-minutes-of-science-tickets-140302302965"><img id="tickets"
+            <a href="https://www.eventbrite.co.uk/e/7-minutes-of-science-2022-tickets-260067397587"><img id="tickets"
                     src="imgs/Tickets.svg" alt=""></a>
         </div>
         <div id="whatIsIt">
@@ -45,6 +45,41 @@
             </div>
             <div class="parallelogramLeft"></div>
             <div class="parallelogramLeftUnder"></div>
+        </div>
+    </div>
+
+    <!-- Speakers section 2022 -->
+    <div class="section dark">
+        <!-- Thought about using spotlights here, not sure how it would work though -->
+        <h2 class="s_heading">
+            2022 Speakers
+        </h2>
+
+        <!-- Below the speakers, there will be a numebr of circles 
+                     which when clicked on reveal the speaker, tile and abstract -->
+        <div id="circle_container">
+
+            <div id="2022_cir_0_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
+                style="background-color: #88c0d0ff;"></div>
+            <div id="2022_cir_1_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
+                style="background-color: #8fbcbbff;"></div>
+            <div id="2022_cir_2_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
+                style="background-color: #d08770ff;"></div>
+            <div id="2022_cir_3_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
+                style="background-color: #a3be8cff;"></div>
+            <div id="2022_cir_4_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
+                style="background-color: #b48eadff;"></div>
+            <div id="2022_cir_5_talk" class="circleIconTalk" onclick="onClickCircle(this.id)"
+                style="background-color: #5e81acff;"></div>
+        </div>
+
+        <!-- Used by JS to fill theree with the actual speaker information -->
+        <div id="talkAfterClicked2022" class="talkAfterClicked">
+            <h6 id="talkSpeaker2022"></h6>
+            <h3 id="talkTitle2022">
+                Click on a circle!
+            </h3>
+            <p id="talkAbstract2022">
         </div>
     </div>
 
